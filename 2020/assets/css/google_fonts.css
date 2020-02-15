@@ -1,0 +1,15 @@
+/* Include Google font libraries and create classes to access them */
+@import url('https://fonts.googleapis.com/css?family=Lora:700|Lato|Indie+Flower|Muli|PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Black+Han+Sans|Monoton|Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+.gfont-Lora{font-family: 'Lora', serif !important;}
+.gfont-Lato{font-family: 'Lato', sans-serif !important;}
+.gfont-Muli{font-family: 'Muli', sans-serif !important;}
+.gfont-IndieFlower{font-family: 'Indie Flower', cursive;}
+.gfont-PTSansNarrow{font-family: 'PT Sans Narrow', sans-serif;}
+
+.gfont-abril{font-family: 'Abril Fatface', cursive;}
+.gfont-blackhansan{font-family: 'Black Han Sans', sans-serif;}
+.gfont-monoton{font-family: 'Monoton', cursive;}
+.gfont-fredoka{font-family: 'Fredoka One', cursive;}
+.gfont-raleway{font-family: 'Raleway', sans-serif;}

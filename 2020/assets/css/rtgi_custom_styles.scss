@@ -1,0 +1,70 @@
+/* COLOR VARIABLES */
+$colors: (
+    "green-dk-1": #004b00,
+    "green-dk-2": #004e00, 
+    "gold-1": #ffc107, 
+    "dodgerblue-1": #1e90ff,
+    "firebrick": #c13c32,
+    "black": #000000, 
+    "lightseagreen": #00aaa6,
+    "white": #ffffff
+);
+
+/* TEXT BACKGROUND GENERATOR */
+@mixin gen-text-backgrounds($prefix) {
+    @each $color-name, $color in $colors {
+        .#{$prefix}-#{$color-name} {
+            background-color: rgba($color, 0.1);
+            position: absolute;
+            width: max-content;
+            height: max-content;
+        }
+    }
+}
+
+@include gen-text-backgrounds('text-bg');
+
+/* SOME WITH INCREASE OPACITY */
+.text-bg-white-lighter {
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+.text-bg-firebrick-lighter {
+  background-color: rgba(193, 60, 50, 0.6);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+
+@mixin gen-props($prefix, $property) {
+    @each $color-name, $color in $colors {
+        .#{$prefix}-#{$color-name} {
+            #{$property}: $color !important;
+        }
+    }
+}
+
+@include gen-props('bg', 'background-color');
+
+/* LEFT RIGHT TOP BOTTOM EDGE GENERATOR */
+@mixin gen-edges($pos) {
+	@for $i from 0 through 100 {
+		@if $i % 5 == 0 {
+			.e#{str-slice($pos, 0, 1)}-#{$i} {
+				#{$pos}: $i+0%;
+			}	
+		}
+	}
+}
+
+/* LEFT EDGES */
+@include gen-edges('left');
+/* RIGHT EDGES */
+@include gen-edges('right');
+/* TOP EDGES */
+@include gen-edges('top');
+/* BOTTOM EDGES */
+@include gen-edges('bottom');
+

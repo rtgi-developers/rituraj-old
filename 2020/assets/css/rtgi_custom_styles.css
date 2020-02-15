@@ -1,0 +1,447 @@
+/* COLOR VARIABLES */
+/* TEXT BACKGROUND GENERATOR */
+.text-bg-green-dk-1 {
+  background-color: rgba(0, 75, 0, 0.1);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+
+.text-bg-green-dk-2 {
+  background-color: rgba(0, 78, 0, 0.1);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+
+.text-bg-gold-1 {
+  background-color: rgba(255, 193, 7, 0.1);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+
+.text-bg-dodgerblue-1 {
+  background-color: rgba(30, 144, 255, 0.1);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+
+.text-bg-firebrick {
+  background-color: rgba(193, 60, 50, 0.1);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+
+.text-bg-black {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+
+.text-bg-lightseagreen {
+  background-color: rgba(0, 170, 166, 0.1);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+
+.text-bg-white {
+  background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+
+/* SOME WITH INCREASE OPACITY */
+.text-bg-white-lighter {
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+
+.text-bg-firebrick-lighter {
+  background-color: rgba(193, 60, 50, 0.6);
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+
+.bg-green-dk-1 {
+  background-color: #004b00 !important;
+}
+
+.bg-green-dk-2 {
+  background-color: #004e00 !important;
+}
+
+.bg-gold-1 {
+  background-color: #ffc107 !important;
+}
+
+.bg-dodgerblue-1 {
+  background-color: #1e90ff !important;
+}
+
+.bg-firebrick {
+  background-color: #c13c32 !important;
+}
+
+.bg-black {
+  background-color: #000000 !important;
+}
+
+.bg-lightseagreen {
+  background-color: #00aaa6 !important;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+/* LEFT RIGHT TOP BOTTOM EDGE GENERATOR */
+/* LEFT EDGES */
+.el-0 {
+  left: 0%;
+}
+
+.el-5 {
+  left: 5%;
+}
+
+.el-10 {
+  left: 10%;
+}
+
+.el-15 {
+  left: 15%;
+}
+
+.el-20 {
+  left: 20%;
+}
+
+.el-25 {
+  left: 25%;
+}
+
+.el-30 {
+  left: 30%;
+}
+
+.el-35 {
+  left: 35%;
+}
+
+.el-40 {
+  left: 40%;
+}
+
+.el-45 {
+  left: 45%;
+}
+
+.el-50 {
+  left: 50%;
+}
+
+.el-55 {
+  left: 55%;
+}
+
+.el-60 {
+  left: 60%;
+}
+
+.el-65 {
+  left: 65%;
+}
+
+.el-70 {
+  left: 70%;
+}
+
+.el-75 {
+  left: 75%;
+}
+
+.el-80 {
+  left: 80%;
+}
+
+.el-85 {
+  left: 85%;
+}
+
+.el-90 {
+  left: 90%;
+}
+
+.el-95 {
+  left: 95%;
+}
+
+.el-100 {
+  left: 100%;
+}
+
+/* RIGHT EDGES */
+.er-0 {
+  right: 0%;
+}
+
+.er-5 {
+  right: 5%;
+}
+
+.er-10 {
+  right: 10%;
+}
+
+.er-15 {
+  right: 15%;
+}
+
+.er-20 {
+  right: 20%;
+}
+
+.er-25 {
+  right: 25%;
+}
+
+.er-30 {
+  right: 30%;
+}
+
+.er-35 {
+  right: 35%;
+}
+
+.er-40 {
+  right: 40%;
+}
+
+.er-45 {
+  right: 45%;
+}
+
+.er-50 {
+  right: 50%;
+}
+
+.er-55 {
+  right: 55%;
+}
+
+.er-60 {
+  right: 60%;
+}
+
+.er-65 {
+  right: 65%;
+}
+
+.er-70 {
+  right: 70%;
+}
+
+.er-75 {
+  right: 75%;
+}
+
+.er-80 {
+  right: 80%;
+}
+
+.er-85 {
+  right: 85%;
+}
+
+.er-90 {
+  right: 90%;
+}
+
+.er-95 {
+  right: 95%;
+}
+
+.er-100 {
+  right: 100%;
+}
+
+/* TOP EDGES */
+.et-0 {
+  top: 0%;
+}
+
+.et-5 {
+  top: 5%;
+}
+
+.et-10 {
+  top: 10%;
+}
+
+.et-15 {
+  top: 15%;
+}
+
+.et-20 {
+  top: 20%;
+}
+
+.et-25 {
+  top: 25%;
+}
+
+.et-30 {
+  top: 30%;
+}
+
+.et-35 {
+  top: 35%;
+}
+
+.et-40 {
+  top: 40%;
+}
+
+.et-45 {
+  top: 45%;
+}
+
+.et-50 {
+  top: 50%;
+}
+
+.et-55 {
+  top: 55%;
+}
+
+.et-60 {
+  top: 60%;
+}
+
+.et-65 {
+  top: 65%;
+}
+
+.et-70 {
+  top: 70%;
+}
+
+.et-75 {
+  top: 75%;
+}
+
+.et-80 {
+  top: 80%;
+}
+
+.et-85 {
+  top: 85%;
+}
+
+.et-90 {
+  top: 90%;
+}
+
+.et-95 {
+  top: 95%;
+}
+
+.et-100 {
+  top: 100%;
+}
+
+/* BOTTOM EDGES */
+.eb-0 {
+  bottom: 0%;
+}
+
+.eb-5 {
+  bottom: 5%;
+}
+
+.eb-10 {
+  bottom: 10%;
+}
+
+.eb-15 {
+  bottom: 15%;
+}
+
+.eb-20 {
+  bottom: 20%;
+}
+
+.eb-25 {
+  bottom: 25%;
+}
+
+.eb-30 {
+  bottom: 30%;
+}
+
+.eb-35 {
+  bottom: 35%;
+}
+
+.eb-40 {
+  bottom: 40%;
+}
+
+.eb-45 {
+  bottom: 45%;
+}
+
+.eb-50 {
+  bottom: 50%;
+}
+
+.eb-55 {
+  bottom: 55%;
+}
+
+.eb-60 {
+  bottom: 60%;
+}
+
+.eb-65 {
+  bottom: 65%;
+}
+
+.eb-70 {
+  bottom: 70%;
+}
+
+.eb-75 {
+  bottom: 75%;
+}
+
+.eb-80 {
+  bottom: 80%;
+}
+
+.eb-85 {
+  bottom: 85%;
+}
+
+.eb-90 {
+  bottom: 90%;
+}
+
+.eb-95 {
+  bottom: 95%;
+}
+
+.eb-100 {
+  bottom: 100%;
+}
+
+/*# sourceMappingURL=rtgi_custom_styles.css.map */
